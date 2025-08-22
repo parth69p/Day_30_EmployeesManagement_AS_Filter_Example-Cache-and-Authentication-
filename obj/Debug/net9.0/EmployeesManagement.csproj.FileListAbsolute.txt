@@ -94,3 +94,4 @@ C:\Users\parth\OneDrive\Desktop\Week4\Day 30\EmployeesManagement\obj\Debug\net9.
 C:\Users\parth\OneDrive\Desktop\Week4\Day 30\EmployeesManagement\obj\Debug\net9.0\EmployeesManagement.pdb
 C:\Users\parth\OneDrive\Desktop\Week4\Day 30\EmployeesManagement\obj\Debug\net9.0\EmployeesManagement.genruntimeconfig.cache
 C:\Users\parth\OneDrive\Desktop\Week4\Day 30\EmployeesManagement\obj\Debug\net9.0\ref\EmployeesManagement.dll
+C:\Users\parth\OneDrive\Desktop\Week4\Day 30\EmployeesManagement\obj\Debug\net9.0\EmployeesManagement.sourcelink.json

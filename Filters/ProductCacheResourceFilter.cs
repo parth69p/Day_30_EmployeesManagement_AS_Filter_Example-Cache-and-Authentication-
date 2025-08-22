@@ -7,10 +7,14 @@ namespace EmployeesManagement.Filters
    public class ProductCacheResourceFilter : IResourceFilter
     {
         private readonly IMemoryCache _cache;
-        public ProductCacheResourceFilter(IMemoryCache cache) => _cache = cache;
+        public ProductCacheResourceFilter(IMemoryCache cache) {
+            _cache = cache;
+        }
         public void OnResourceExecuting(ResourceExecutingContext context)
         {
             var key = context.HttpContext.Request.Path.ToString();
+            // The request path (e.g., "/api/products") is used as the cache key.
+
             if (_cache.TryGetValue<string>(key, out var cached))// In this we are storing data before the action executes.
             {
                 context.Result = new ContentResult { Content = cached, ContentType = "text/plain" };

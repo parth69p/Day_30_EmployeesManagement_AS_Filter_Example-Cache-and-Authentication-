@@ -9,6 +9,10 @@ builder.Services.AddScoped<AuthorizationFilter>();
 
 builder.Services.AddScoped<ProductCacheResourceFilter>();
 
+builder.Services.AddScoped<LoggingActionFilter>();
+
+builder.Services.AddScoped<ExceptionFilter>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
